@@ -1,0 +1,120 @@
+body {
+    background-color: #04161d;
+    color: white;
+}
+
+header {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 24px 16px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: grey;
+}
+
+.photographie {
+    font-family: "Yeseva One", serif;
+}
+#photographe_span {
+    color: rgb(14, 177, 14);
+}
+
+header nav span{
+    margin: 10px;
+}
+
+
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@media all and (max-width: 767px) {
+    header {
+        flex-direction: column;
+    }
+    
+}
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center ;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.filtres button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.filtres button.active {
+    background-color: green;
+    color: white;
+}
+
+.filtres button:hover {
+    background-color: green;
+    color: white;
+}
+
+h3 {
+    color : white;
+}
+
+.green {
+    color: green;
+}
+
+.margin {
+    margin: 0 30rem;
+}
+
+.icons {
+    gap: 2rem;
+}
+
+.lorem {
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+}
+
+.petit {
+    font-size: 0.8rem;
+}
+
+.maj {
+    text-transform: uppercase;
+}
+
+.yeseva {
+    font-family: "Yeseva One", serif;
+
+}
